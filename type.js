@@ -9,7 +9,7 @@ const accuracyElement = document.getElementById("accuracy");
 const resultElement = document.getElementById("result");
 const retryButton = document.getElementById("retry-btn");
 
-let seconds = 5;
+let seconds = 30;
 let timer;
 
 timerElement.textContent = `00:${seconds}`;
